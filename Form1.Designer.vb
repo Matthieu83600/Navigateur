@@ -29,12 +29,14 @@ Partial Class Navigateur
         ToolStripMenuItem4 = New ToolStripMenuItem()
         TextBox1 = New TextBox()
         Button1 = New Button()
+        ToolStripMenuItem5 = New ToolStripMenuItem()
+        ToolStripMenuItem6 = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
         ' MenuStrip1
         ' 
-        MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem2, ToolStripMenuItem3, ToolStripMenuItem1, ToolStripMenuItem4})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {ToolStripMenuItem2, ToolStripMenuItem3, ToolStripMenuItem1, ToolStripMenuItem5, ToolStripMenuItem6, ToolStripMenuItem4})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Size = New Size(1017, 24)
@@ -83,6 +85,18 @@ Partial Class Navigateur
         Button1.Text = "Rechercher"
         Button1.UseVisualStyleBackColor = True
         ' 
+        ' ToolStripMenuItem5
+        ' 
+        ToolStripMenuItem5.Name = "ToolStripMenuItem5"
+        ToolStripMenuItem5.Size = New Size(57, 20)
+        ToolStripMenuItem5.Text = "Google"
+        ' 
+        ' ToolStripMenuItem6
+        ' 
+        ToolStripMenuItem6.Name = "ToolStripMenuItem6"
+        ToolStripMenuItem6.Size = New Size(84, 20)
+        ToolStripMenuItem6.Text = "Sauvegarder"
+        ' 
         ' Navigateur
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -107,5 +121,7 @@ Partial Class Navigateur
     Friend WithEvents ToolStripMenuItem4 As ToolStripMenuItem
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents ToolStripMenuItem5 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem6 As ToolStripMenuItem
 
 End Class
